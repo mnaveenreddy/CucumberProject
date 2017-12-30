@@ -1,0 +1,6 @@
+com\zopa\runner\SuiteRunner.class
+com\zopa\testcases\StepDefinitions.class
+com\zopa\base\TestBase.class
+com\zopa\pages\LoanFormPage.class
+com\zopa\pages\QuotesPage.class
+com\zopa\pages\HomePage.class

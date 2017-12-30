@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75318" started-at="2017-09-04T06:35:26Z" finished-at="2017-09-04T06:36:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zopa.runner.SuiteRunner@3cbbc1e0]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="75318" started-at="2017-09-04T06:35:26Z" finished-at="2017-09-04T06:36:41Z">
+      <class name="com.zopa.runner.SuiteRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.zopa.runner.SuiteRunner@3cbbc1e0]" name="setUpClass" is-config="true" duration-ms="256" started-at="2017-09-04T07:35:26Z" finished-at="2017-09-04T07:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zopa.runner.SuiteRunner@3cbbc1e0]" name="feature" duration-ms="74476" started-at="2017-09-04T07:35:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-09-04T07:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personal Loan Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zopa.runner.SuiteRunner@3cbbc1e0]" name="teardown" is-config="true" duration-ms="4" started-at="2017-09-04T07:36:41Z" finished-at="2017-09-04T07:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zopa.runner.SuiteRunner@3cbbc1e0]" name="tearDownClass" is-config="true" duration-ms="481" started-at="2017-09-04T07:36:41Z" finished-at="2017-09-04T07:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.zopa.runner.SuiteRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
